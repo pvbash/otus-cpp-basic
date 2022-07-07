@@ -1,5 +1,0 @@
-# ignore some files
-*.obj
-*.o
-*.exe
-build/
