@@ -3,5 +3,5 @@
 
 void hello() 
 {
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << "Hello, world from windows!" << std::endl;
 }
