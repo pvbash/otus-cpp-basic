@@ -1,0 +1,10 @@
+^C:\HOME\PBASH\GITHUB-REPOS\OTUS-CPP-BASIC\HOMEWORK2\TESTSUM\CMAKELISTS.TXT
+setlocal
+C:\bin\cmake\bin\cmake.exe -SC:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum -BC:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum/build --check-stamp-file C:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

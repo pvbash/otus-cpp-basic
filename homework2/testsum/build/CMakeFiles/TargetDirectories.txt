@@ -1,0 +1,3 @@
+C:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum/build/CMakeFiles/testsum.dir
+C:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum/build/CMakeFiles/ALL_BUILD.dir
+C:/home/pbash/github-repos/otus-cpp-basic/homework2/testsum/build/CMakeFiles/ZERO_CHECK.dir

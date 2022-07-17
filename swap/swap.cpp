@@ -1,25 +1,21 @@
 #include <iostream>
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+
+int swap(int a, int b)
+{
+    return a > b ? a : b;
+}
+
 
 int main() 
 {
-    int a = 3;
-    int b = 5;
+    int a = 10;
+    int b = 20;
+    
+    cout << swap(a+= b, b) << endl;
 
-    cout 
-        << "a = "
-        << a
-        << ", b = "
-        << b 
-        << endl;
-    a += b;
-    b = a - b;
-    a -= b;
-    cout 
-        << "a = "
-        << a
-        << ", b = "
-        << b 
-        << endl;
     return 0; 
 }
